@@ -1,0 +1,36 @@
+Welcome to the Homework 3 Autograder! Let's test your code on a variety of settings.
+-- Testing your Simulator code in the context of static prediction.--
+Reached insn limit of 500000. Ending Simulation...
+Processed 500000 trace lines.
+Num Uops (micro-ops): 			500000
+** static predictor, predicting taken ** 
+Prediction Accuracy: 56.87% (Mis-prediction rate: 43.13%)
+* * * * Hooray! Your predictor is error-free. +5 points
+
+Reached insn limit of 500000. Ending Simulation...
+Processed 500000 trace lines.
+Num Uops (micro-ops): 			500000
+** static predictor, predicting not-taken ** 
+Prediction Accuracy: 43.13% (Mis-prediction rate: 56.87%)
+* * * * Hooray! Your predictor is error-free. +5 points
+
+--Testing your Bimodal Branch Predictor.--
+Reached insn limit of 500000. Ending Simulation...
+Processed 500000 trace lines.
+Num Uops (micro-ops): 			500000
+** bimodal predictor, predicting 2^4 entries, each has 2-bit sat ctrs ** 
+Prediction Accuracy: 74.78% (Mis-prediction rate: 25.22%)
+* * * * Hooray! Your predictor is error-free. +5 points
+
+Reached insn limit of 500000. Ending Simulation...
+Processed 500000 trace lines.
+Num Uops (micro-ops): 			500000
+** bimodal predictor, predicting 2^8 entries, each has 2-bit sat ctrs ** 
+Prediction Accuracy: 84.07% (Mis-prediction rate: 15.93%)
+* * * * Hooray! Your predictor is error-free. +5 points
+
+--Testing your GShare Branch Predictor and History Register code.--
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 12
+	at GSharePredictor.predictIfTaken(GSharePredictor.java:43)
+	at Simulator.processTrace(Simulator.java:95)
+	at HW3Grader.main(HW3Grader.java:114)

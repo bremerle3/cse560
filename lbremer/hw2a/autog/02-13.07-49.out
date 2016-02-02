@@ -1,0 +1,93 @@
+HW 2 Printout for lbremer
+-----------------------------------------------------
+Trace name  				sjeng-10M
+Load Latency (cycles) 			2
+Instruction Limit			499999
+Enforcing Register Write Order?		yes
+
+Reached insn limit of 499999. Ending Simulation...
+Processed 499999 trace lines.
+Num Uops (micro-ops): 			499999
+Num Mops (macro-ops): 			370761
+Total Execution Time (in cycles): 	705004
+CPI (per uop): 				1.410
+IPC (per uop): 				0.709
+cycle_count error discovered. Please check your implementation.
+HW 2 Printout for lbremer
+-----------------------------------------------------
+Trace name  				sjeng-10M
+Load Latency (cycles) 			7
+Instruction Limit			499999
+Enforcing Register Write Order?		yes
+
+Reached insn limit of 499999. Ending Simulation...
+Processed 499999 trace lines.
+Num Uops (micro-ops): 			499999
+Num Mops (macro-ops): 			370761
+Total Execution Time (in cycles): 	1900409
+CPI (per uop): 				3.801
+IPC (per uop): 				0.263
+Scoreboard error discovered. Please check your implementation.
+HW 2 Printout for lbremer
+-----------------------------------------------------
+Trace name  				sjeng-10M
+Load Latency (cycles) 			12
+Instruction Limit			499999
+Enforcing Register Write Order?		yes
+
+Reached insn limit of 499999. Ending Simulation...
+Processed 499999 trace lines.
+Num Uops (micro-ops): 			499999
+Num Mops (macro-ops): 			370761
+Total Execution Time (in cycles): 	3119382
+CPI (per uop): 				6.239
+IPC (per uop): 				0.160
+Scoreboard error discovered. Please check your implementation.
+HW 2 Printout for lbremer
+-----------------------------------------------------
+Trace name  				sjeng-10M
+Load Latency (cycles) 			2
+Instruction Limit			499999
+Enforcing Register Write Order?		no
+
+Reached insn limit of 499999. Ending Simulation...
+Processed 499999 trace lines.
+Num Uops (micro-ops): 			499999
+Num Mops (macro-ops): 			370761
+Total Execution Time (in cycles): 	705004
+CPI (per uop): 				1.410
+IPC (per uop): 				0.709
+cycle_count error discovered. Please check your implementation.
+HW 2 Printout for lbremer
+-----------------------------------------------------
+Trace name  				sjeng-10M
+Load Latency (cycles) 			7
+Instruction Limit			499999
+Enforcing Register Write Order?		no
+
+Reached insn limit of 499999. Ending Simulation...
+Processed 499999 trace lines.
+Num Uops (micro-ops): 			499999
+Num Mops (macro-ops): 			370761
+Total Execution Time (in cycles): 	1900409
+CPI (per uop): 				3.801
+IPC (per uop): 				0.263
+Scoreboard error discovered. Please check your implementation.
+HW 2 Printout for lbremer
+-----------------------------------------------------
+Trace name  				sjeng-10M
+Load Latency (cycles) 			12
+Instruction Limit			499999
+Enforcing Register Write Order?		no
+
+Reached insn limit of 499999. Ending Simulation...
+Processed 499999 trace lines.
+Num Uops (micro-ops): 			499999
+Num Mops (macro-ops): 			370761
+Total Execution Time (in cycles): 	3119382
+CPI (per uop): 				6.239
+IPC (per uop): 				0.160
+Scoreboard error discovered. Please check your implementation.
+
+POSSIBLE_POINTS:	30
+TOTAL_POINTS:    	0

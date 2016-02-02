@@ -1,0 +1,34 @@
+Welcome to the Homework 4 Autograder! Let's test your code on a variety of settings.
+We'll begin by testing your cache's get functions:
+Test #1.Cache size  = 512B. Each block = 32B. 1-way set associative cache.
+	Address = 3921 (in binary: 111101010001)
+	Your getTag() returns: tag = 7 (in binary: 111)
+	Yay! This is correct. +2 points.
+	Your getIndex() returns: index = 10 (in binary: 1010)
+	Yay! This is correct. +2 points.
+	Your getBlockAddress() returns: blockAddr = 3904 (in binary: 111101000000)
+	Yay! This is correct. +2 points.
+* * * * Hooray! Your get functions were error-free.
+
+Test #2.Cache size  = 2048B. Each block = 64B. 4-way set associative cache.
+	Address = 314159265 (in binary: 10010101110011011000010100001)
+	Your getTag() returns: tag = 613592 (in binary: 10010101110011011000)
+	Yay! This is correct. +2 points.
+	Your getIndex() returns: index = 2 (in binary: 10)
+	Yay! This is correct. +2 points.
+	Your getBlockAddress() returns: blockAddr = 314159232 (in binary: 10010101110011011000010000000)
+	Yay! This is correct. +2 points.
+* * * * Hooray! Your get functions were error-free.
+
+Next, we'll test your cache's miss rate and traffic calculations:
+Reached insn limit of 500000. Ending Simulation...
+Cache size  = 2048B. Each block = 32B.
+1-way set associative cache.
+Tag = 21 bits, Index = 6 bits, Offset = 5 bits
+There are 64 sets total in the cache.
+At this associativity, that means a total of 64 cache lines.
+(Assuming a 32-bit address.)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 63
+	at Cache.access(Cache.java:97)
+	at Simulator.processTrace(Simulator.java:87)
+	at HW4Grader.main(HW4Grader.java:178)

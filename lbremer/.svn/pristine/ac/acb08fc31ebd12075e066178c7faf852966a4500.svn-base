@@ -1,0 +1,93 @@
+HW 2 Printout for i-forgot-to-replace-this-string-with-my-wustlkey
+-----------------------------------------------------
+Trace name  				mcf-10M
+Load Latency (cycles) 			2
+Instruction Limit			499999
+Enforcing Register Write Order?		yes
+
+Reached insn limit of 499999. Ending Simulation...
+Processed 499999 trace lines.
+Num Uops (micro-ops): 			499999
+Num Mops (macro-ops): 			436769
+Total Execution Time (in cycles): 	499999
+CPI (per uop): 				1.000
+IPC (per uop): 				1.000
+cycle_count error discovered. Please check your implementation.
+HW 2 Printout for i-forgot-to-replace-this-string-with-my-wustlkey
+-----------------------------------------------------
+Trace name  				mcf-10M
+Load Latency (cycles) 			7
+Instruction Limit			499999
+Enforcing Register Write Order?		yes
+
+Reached insn limit of 499999. Ending Simulation...
+Processed 499999 trace lines.
+Num Uops (micro-ops): 			499999
+Num Mops (macro-ops): 			436769
+Total Execution Time (in cycles): 	499999
+CPI (per uop): 				1.000
+IPC (per uop): 				1.000
+cycle_count error discovered. Please check your implementation.
+HW 2 Printout for i-forgot-to-replace-this-string-with-my-wustlkey
+-----------------------------------------------------
+Trace name  				mcf-10M
+Load Latency (cycles) 			12
+Instruction Limit			499999
+Enforcing Register Write Order?		yes
+
+Reached insn limit of 499999. Ending Simulation...
+Processed 499999 trace lines.
+Num Uops (micro-ops): 			499999
+Num Mops (macro-ops): 			436769
+Total Execution Time (in cycles): 	499999
+CPI (per uop): 				1.000
+IPC (per uop): 				1.000
+cycle_count error discovered. Please check your implementation.
+HW 2 Printout for i-forgot-to-replace-this-string-with-my-wustlkey
+-----------------------------------------------------
+Trace name  				mcf-10M
+Load Latency (cycles) 			2
+Instruction Limit			499999
+Enforcing Register Write Order?		no
+
+Reached insn limit of 499999. Ending Simulation...
+Processed 499999 trace lines.
+Num Uops (micro-ops): 			499999
+Num Mops (macro-ops): 			436769
+Total Execution Time (in cycles): 	499999
+CPI (per uop): 				1.000
+IPC (per uop): 				1.000
+cycle_count error discovered. Please check your implementation.
+HW 2 Printout for i-forgot-to-replace-this-string-with-my-wustlkey
+-----------------------------------------------------
+Trace name  				mcf-10M
+Load Latency (cycles) 			7
+Instruction Limit			499999
+Enforcing Register Write Order?		no
+
+Reached insn limit of 499999. Ending Simulation...
+Processed 499999 trace lines.
+Num Uops (micro-ops): 			499999
+Num Mops (macro-ops): 			436769
+Total Execution Time (in cycles): 	499999
+CPI (per uop): 				1.000
+IPC (per uop): 				1.000
+cycle_count error discovered. Please check your implementation.
+HW 2 Printout for i-forgot-to-replace-this-string-with-my-wustlkey
+-----------------------------------------------------
+Trace name  				mcf-10M
+Load Latency (cycles) 			12
+Instruction Limit			499999
+Enforcing Register Write Order?		no
+
+Reached insn limit of 499999. Ending Simulation...
+Processed 499999 trace lines.
+Num Uops (micro-ops): 			499999
+Num Mops (macro-ops): 			436769
+Total Execution Time (in cycles): 	499999
+CPI (per uop): 				1.000
+IPC (per uop): 				1.000
+cycle_count error discovered. Please check your implementation.
+
+POSSIBLE_POINTS:	30
+TOTAL_POINTS:    	0

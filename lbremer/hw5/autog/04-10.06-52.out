@@ -1,0 +1,15 @@
+Welcome to the Homework 5 Autograder! Let's test your code on a variety of settings.
+
+Test #1. No branch stalls, no cache, 1-wide
+HW 5 Printout for i-forgot-to-replace-this-string-with-my-wustlkey
+-----------------------------------------------------
+Trace name  				gcc-10M
+Load Latency (cycles) 			2
+Instruction Limit			500000
+Exception in thread "main" java.io.FileNotFoundException: /home/leo/svn_repos/cse560/lbremer/hw5/gcc-10M.trace.gz (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+	at java.io.FileInputStream.<init>(FileInputStream.java:101)
+	at Simulator.initTrace(Simulator.java:73)
+	at Simulator.processTrace(Simulator.java:89)
+	at HW5Grader.main(HW5Grader.java:93)

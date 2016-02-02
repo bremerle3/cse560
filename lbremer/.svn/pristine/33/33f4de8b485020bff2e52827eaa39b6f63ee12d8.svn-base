@@ -1,0 +1,51 @@
+HW 1 Printout for i-forgot-to-replace-this-string-with-my-wustlkey
+-------------------------------
+Running on trace mcf-1K.trace.gz.
+
+Processed 1000 trace lines.
+Num Uops (micro-ops): 1000
+Num Mops (macro-ops): 928
+
+(1A): average number of micro-ops per macro-op	 Your answer: 1.08
+						 Correct! +5 points
+
+(1B): distribution of micro-ops per macro-op	Your Answer:
+Distribution of Micro Ops Per Macrop Op in Trace:
+  Percent of mops consisting of  1 uops: 92.2%
+  Percent of mops consisting of  2 uops:  7.8%
+						 Correct! +5 points
+
+(2A): the average number of bytes per macro-op	 Your answer: 3.32
+						 Correct! +5 points
+
+(2B): distribution of bytes per macro-op	Your Answer:
+Distribution of Bytes Per Macrop Op in Trace:
+  Percent of mops of length  2 bytes: 28.7%
+  Percent of mops of length  3 bytes: 43.3%
+  Percent of mops of length  4 bytes: 19.8%
+  Percent of mops of length  8 bytes:  8.2%
+						 Correct! +5 points
+
+(3A): distribution of bits needed to encode target.	Your Answer:
+Distribution of Bits Per Target in Trace:
+  Percent of targets requiring  4 bits: 19.3%
+  Percent of targets requiring  5 bits: 18.8%
+  Percent of targets requiring  7 bits: 23.4%
+  Percent of targets requiring  8 bits: 38.5%
+						 Correct! +5 points
+
+(4A): distribution of the following instruction types:
+0: insn_LOAD, 1: insn_STORE, 2: insn_UBRANCH, 3: insn_CBRANCH, 4: insn_OTHER, 
+Your Answer:
+Distribution of Frequency of Each Uop Type in Trace:
+  Percent of uops of type  0 : 29.3%
+  Percent of uops of type  1 :  3.9%
+  Percent of uops of type  3 : 19.2%
+  Percent of uops of type  4 : 47.6%
+						 Correct! +5 points
+
+(6A): the fraction of fusion-elligible pairs per micro-op.	 Your answer: 0.19
+						 Correct! +5 points
+
+POSSIBLE_POINTS:	35
+TOTAL_POINTS:    	35

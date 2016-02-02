@@ -1,0 +1,70 @@
+Welcome to the Homework 3 Autograder! Let's test your code on a variety of settings.
+-- Testing your Simulator code in the context of static prediction.--
+Reached insn limit of 500000. Ending Simulation...
+Processed 500000 trace lines.
+Num Uops (micro-ops): 			500000
+** static predictor, predicting taken ** 
+Prediction Accuracy: NaN% (Mis-prediction rate: NaN%)
+Your simulator did not simulate the correct number of predictions.  Please check your implementation.
+
+Reached insn limit of 500000. Ending Simulation...
+Processed 500000 trace lines.
+Num Uops (micro-ops): 			500000
+** static predictor, predicting not-taken ** 
+Prediction Accuracy: NaN% (Mis-prediction rate: NaN%)
+Your simulator did not simulate the correct number of predictions.  Please check your implementation.
+
+--Testing your Bimodal Branch Predictor.--
+Reached insn limit of 500000. Ending Simulation...
+Processed 500000 trace lines.
+Num Uops (micro-ops): 			500000
+** bimodal predictor, predicting 2^4 entries, each has 2-bit sat ctrs ** 
+Prediction Accuracy: NaN% (Mis-prediction rate: NaN%)
+Your simulator did not simulate the correct number of predictions.  Please check your implementation.
+
+Reached insn limit of 500000. Ending Simulation...
+Processed 500000 trace lines.
+Num Uops (micro-ops): 			500000
+** bimodal predictor, predicting 2^8 entries, each has 2-bit sat ctrs ** 
+Prediction Accuracy: NaN% (Mis-prediction rate: NaN%)
+Your simulator did not simulate the correct number of predictions.  Please check your implementation.
+
+--Testing your GShare Branch Predictor and History Register code.--
+Reached insn limit of 500000. Ending Simulation...
+Processed 500000 trace lines.
+Num Uops (micro-ops): 			500000
+** gshare predictor, predicting 2^3 entries, each has 2-bit sat ctrs, Plus BHR of length 8 bits ** 
+Prediction Accuracy: NaN% (Mis-prediction rate: NaN%)
+Your simulator did not simulate the correct number of predictions.  Please check your implementation.
+
+Reached insn limit of 500000. Ending Simulation...
+Processed 500000 trace lines.
+Num Uops (micro-ops): 			500000
+** gshare predictor, predicting 2^8 entries, each has 2-bit sat ctrs, Plus BHR of length 3 bits ** 
+Prediction Accuracy: NaN% (Mis-prediction rate: NaN%)
+Your simulator did not simulate the correct number of predictions.  Please check your implementation.
+
+--Testing your Tournament Branch Predictor.--
+Reached insn limit of 500000. Ending Simulation...
+Processed 500000 trace lines.
+Num Uops (micro-ops): 			500000
+** tournament predictor, predicting 
+Bimodal: 2^2 entries, each has 2-bit sat ctrs
+GSHARE: 2^3 entries, each has 2-bit sat ctrs, Plus BHR of length 4 bits
+Chooser Table: 2^5 entries, each has 2-bit sat ctrs ** 
+Prediction Accuracy: NaN% (Mis-prediction rate: NaN%)
+Your simulator did not simulate the correct number of predictions.  Please check your implementation.
+
+Reached insn limit of 500000. Ending Simulation...
+Processed 500000 trace lines.
+Num Uops (micro-ops): 			500000
+** tournament predictor, predicting 
+Bimodal: 2^7 entries, each has 2-bit sat ctrs
+GSHARE: 2^6 entries, each has 2-bit sat ctrs, Plus BHR of length 5 bits
+Chooser Table: 2^4 entries, each has 2-bit sat ctrs ** 
+Prediction Accuracy: NaN% (Mis-prediction rate: NaN%)
+Your simulator did not simulate the correct number of predictions.  Please check your implementation.
+
+
+POSSIBLE_POINTS:	40
+TOTAL_POINTS:    	0

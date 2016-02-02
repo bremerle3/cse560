@@ -1,0 +1,105 @@
+Simulator.java:220: error: class, interface, or enum expected
+    public boolean isRegReady(int n) {
+           ^
+Simulator.java:224: error: class, interface, or enum expected
+	if (n < 0){
+	^
+Simulator.java:226: error: class, interface, or enum expected
+	}
+	^
+Simulator.java:230: error: class, interface, or enum expected
+	}
+	^
+Simulator.java:232: error: class, interface, or enum expected
+    }    
+    ^
+Simulator.java:234: error: class, interface, or enum expected
+    public void printHeader() {
+           ^
+Simulator.java:237: error: class, interface, or enum expected
+	    System.out.format("-----------------------------------------------------\n");
+	    ^
+Simulator.java:238: error: class, interface, or enum expected
+	}
+	^
+Simulator.java:240: error: class, interface, or enum expected
+    	System.out.format("Load Latency (cycles) \t\t\t%d\n", Uop.LOAD_lat);	
+    	^
+Simulator.java:241: error: class, interface, or enum expected
+	if (!printScoreboard_f) {
+	^
+Simulator.java:243: error: class, interface, or enum expected
+	    System.out.format("Enforcing Register Write Order?\t\t%s\n\n", enforceRegWriteOrder_f ? "yes" : "no");	
+	    ^
+Simulator.java:244: error: class, interface, or enum expected
+	}
+	^
+Simulator.java:247: error: class, interface, or enum expected
+    public void printSBHeader() {
+           ^
+Simulator.java:249: error: class, interface, or enum expected
+    }
+    ^
+Simulator.java:251: error: class, interface, or enum expected
+    public void printSBInputOutput(Uop currUop) {
+           ^
+Simulator.java:258: error: class, interface, or enum expected
+    }
+    ^
+Simulator.java:260: error: class, interface, or enum expected
+    public void printScoreboard() {
+           ^
+Simulator.java:261: error: class, interface, or enum expected
+	for (int i = 0; i < NUM_REGS; i++) {
+	                ^
+Simulator.java:261: error: class, interface, or enum expected
+	for (int i = 0; i < NUM_REGS; i++) {
+	                              ^
+Simulator.java:264: error: class, interface, or enum expected
+	    else
+	    ^
+Simulator.java:266: error: class, interface, or enum expected
+	}
+	^
+Simulator.java:268: error: class, interface, or enum expected
+    }
+    ^
+Simulator.java:270: error: class, interface, or enum expected
+    public String printSBRegReady(int n) {
+           ^
+Simulator.java:272: error: class, interface, or enum expected
+    }
+    ^
+Simulator.java:274: error: class, interface, or enum expected
+    public void printTraceStats() {
+           ^
+Simulator.java:277: error: class, interface, or enum expected
+    	System.out.format("Num Uops (micro-ops): \t\t\t%d\n", totalUops);
+    	^
+Simulator.java:278: error: class, interface, or enum expected
+    	System.out.format("Num Mops (macro-ops): \t\t\t%d\n", totalMops);
+    	^
+Simulator.java:279: error: class, interface, or enum expected
+    	System.out.format("Total Execution Time (in cycles): \t%d\n", cycle_count);
+    	^
+Simulator.java:280: error: class, interface, or enum expected
+    	System.out.format("CPI (per uop): \t\t\t\t%.3f\n", CPI);
+    	^
+Simulator.java:281: error: class, interface, or enum expected
+    	System.out.format("IPC (per uop): \t\t\t\t%.3f\n", IPC);
+    	^
+Simulator.java:282: error: class, interface, or enum expected
+	if (printInsnMix_f) {
+	^
+Simulator.java:284: error: class, interface, or enum expected
+	    Uop.UopType.printAll();
+	    ^
+Simulator.java:285: error: class, interface, or enum expected
+	    InsnTypeFrequencyHistogram.print();
+	    ^
+Simulator.java:286: error: class, interface, or enum expected
+	}
+	^
+34 errors
+
+Compiler error. At least one needed class was not created.

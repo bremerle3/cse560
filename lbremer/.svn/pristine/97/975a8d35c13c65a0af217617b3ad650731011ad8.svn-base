@@ -1,0 +1,86 @@
+Welcome to the Homework 4 Autograder! Let's test your code on a variety of settings.
+We'll begin by testing your cache's get functions:
+Test #1.Cache size  = 512B. Each block = 32B. 1-way set associative cache.
+	Address = 3921 (in binary: 111101010001)
+	Your getTag() returns: tag = 0 (in binary: 0)
+	This is incorrect. Please check your implementation.
+	Your getIndex() returns: index = 0 (in binary: 0)
+	This is incorrect. Please check your implementation.
+	Your getBlockAddress() returns: blockAddr = 0 (in binary: 0)
+	This is incorrect. Please check your implementation.
+Test #2.Cache size  = 2048B. Each block = 64B. 4-way set associative cache.
+	Address = 314159265 (in binary: 10010101110011011000010100001)
+	Your getTag() returns: tag = 0 (in binary: 0)
+	This is incorrect. Please check your implementation.
+	Your getIndex() returns: index = 0 (in binary: 0)
+	This is incorrect. Please check your implementation.
+	Your getBlockAddress() returns: blockAddr = 0 (in binary: 0)
+	This is incorrect. Please check your implementation.
+Next, we'll test your cache's miss rate and traffic calculations:
+Reached insn limit of 500000. Ending Simulation...
+Cache size  = 2048B. Each block = 32B.
+1-way set associative cache.
+Tag = 1 bits, Index = 1 bits, Offset = 1 bits
+There are 1 sets total in the cache.
+At this associativity, that means a total of 1 cache lines.
+(Assuming a 32-bit address.)
+Reached insn limit of 500000. Ending Simulation...
+Processed 500000 trace lines.
+Num Uops (micro-ops): 			500000
+Cache Hit Rate = NaN% (Mis-rate: NaN%)
+Total number of bytes transferred write-back: 0
+Total number of bytes transferred write-thru: 0
+	Your cache stats has the incorrect number of total accesses. Please check your implementation.
+	Your traffic for the write-thru case is incorrect. Please check your implementation.
+	Your traffic for the WB case is incorrect. Please check your implementation.
+Reached insn limit of 500000. Ending Simulation...
+Cache size  = 1024B. Each block = 16B.
+1-way set associative cache.
+Tag = 1 bits, Index = 1 bits, Offset = 1 bits
+There are 1 sets total in the cache.
+At this associativity, that means a total of 1 cache lines.
+(Assuming a 32-bit address.)
+Reached insn limit of 500000. Ending Simulation...
+Processed 500000 trace lines.
+Num Uops (micro-ops): 			500000
+Cache Hit Rate = NaN% (Mis-rate: NaN%)
+Total number of bytes transferred write-back: 0
+Total number of bytes transferred write-thru: 0
+	Your cache stats has the incorrect number of total accesses. Please check your implementation.
+	Your traffic for the write-thru case is incorrect. Please check your implementation.
+	Your traffic for the WB case is incorrect. Please check your implementation.
+Reached insn limit of 500000. Ending Simulation...
+Cache size  = 2048B. Each block = 32B.
+2-way set associative cache.
+Tag = 1 bits, Index = 1 bits, Offset = 1 bits
+There are 1 sets total in the cache.
+At this associativity, that means a total of 1 cache lines.
+(Assuming a 32-bit address.)
+Reached insn limit of 500000. Ending Simulation...
+Processed 500000 trace lines.
+Num Uops (micro-ops): 			500000
+Cache Hit Rate = NaN% (Mis-rate: NaN%)
+Total number of bytes transferred write-back: 0
+Total number of bytes transferred write-thru: 0
+	Your cache stats has the incorrect number of total accesses. Please check your implementation.
+	Your traffic for the write-thru case is incorrect. Please check your implementation.
+	Your traffic for the WB case is incorrect. Please check your implementation.
+Reached insn limit of 500000. Ending Simulation...
+Cache size  = 4096B. Each block = 64B.
+4-way set associative cache.
+Tag = 1 bits, Index = 1 bits, Offset = 1 bits
+There are 1 sets total in the cache.
+At this associativity, that means a total of 1 cache lines.
+(Assuming a 32-bit address.)
+Reached insn limit of 500000. Ending Simulation...
+Processed 500000 trace lines.
+Num Uops (micro-ops): 			500000
+Cache Hit Rate = NaN% (Mis-rate: NaN%)
+Total number of bytes transferred write-back: 0
+Total number of bytes transferred write-thru: 0
+	Your cache stats has the incorrect number of total accesses. Please check your implementation.
+	Your traffic for the write-thru case is incorrect. Please check your implementation.
+	Your traffic for the WB case is incorrect. Please check your implementation.
+
+POSSIBLE_POINTS:	48
+TOTAL_POINTS:    	0

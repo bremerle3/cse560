@@ -1,0 +1,10 @@
+echo "running code-O0"
+./code-O0
+echo "running code-O3"
+./code-O3
+echo "running code-O3-unrolled"
+./code-O3-unrolled
+echo "running code-O3-unrolled-vector"
+./code-O3-unrolled-vector
+echo "running code-O3-unrolled-vector-openmp"
+./code-O3-unrolled-vector-openmp

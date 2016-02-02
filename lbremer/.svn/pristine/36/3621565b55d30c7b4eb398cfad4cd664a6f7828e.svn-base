@@ -1,0 +1,165 @@
+Welcome to the Homework 6 Autograder! Let's test your code on a variety of settings.
+
+Test #1. Rename Only with 64 physical registers
+HW 6 Printout for i-forgot-to-replace-this-string-with-my-wustlkey
+-----------------------------------------------------
+Trace name  				sjeng-10M
+Instruction Limit			500000
+Processor Configuration:
+  Machine Width 			0
+  Number of Logical Registers 		50
+  Number of Physical Registers 		64
+  ROB Size 				0
+  NOT modeling memory dependences
+Reached insn limit of 500000 @ cycle 499999. Ending Simulation...
+Processed 500000 trace lines.
+Instructions:
+  N Fetched =    		500000
+  N Committed =  		500000
+Stalls:
+  Fetch stalled (ROB full) =    0
+IPC: 				1.000
+Reached insn limit of 500000 @ cycle 499999. Ending Simulation...
+MapTable, cycleCount, and CPI calculation are error-free. +5 points
+
+
+Test #2. Rename Only with 128 physical registers
+HW 6 Printout for i-forgot-to-replace-this-string-with-my-wustlkey
+-----------------------------------------------------
+Trace name  				sjeng-10M
+Instruction Limit			500000
+Processor Configuration:
+  Machine Width 			0
+  Number of Logical Registers 		50
+  Number of Physical Registers 		128
+  ROB Size 				0
+  NOT modeling memory dependences
+Reached insn limit of 500000 @ cycle 499999. Ending Simulation...
+Processed 500000 trace lines.
+Instructions:
+  N Fetched =    		500000
+  N Committed =  		500000
+Stalls:
+  Fetch stalled (ROB full) =    0
+IPC: 				1.000
+Reached insn limit of 500000 @ cycle 499999. Ending Simulation...
+MapTable, cycleCount, and CPI calculation are error-free. +5 points
+
+
+Test #3. All stages, 64 pregs, rob = 4, 1-wide machine
+HW 6 Printout for i-forgot-to-replace-this-string-with-my-wustlkey
+-----------------------------------------------------
+Trace name  				sjeng-10M
+Instruction Limit			500000
+Processor Configuration:
+  Machine Width 			1
+  Number of Logical Registers 		50
+  Number of Physical Registers 		64
+  ROB Size 				4
+  NOT modeling memory dependences
+1: 0 1 1 2, r49 -> p492: 1 2 2 3, r1 -> p13: 2 3 3 4, r44 -> p504: 3 4 4 5, r7 -> p7, r2 -> p51You haven't committed an instruction in 100 cyces... Time to debug. Ending Simulation...
+Processed 4 trace lines.
+Instructions:
+  N Fetched =    		8
+  N Committed =  		4
+Stalls:
+  Fetch stalled (ROB full) =    98
+IPC: 				0.038
+SOLUTION SIMULATOR: reached insn limit of 500000 @ cycle 654740. Ending Simulation...
+	Your nCommitted is incorrect. Please check your implementation.
+	Your cycleCount is incorrect. Please check your implementation.
+
+Test #4. All stages, 128 pregs, rob = 8, 4-wide machine
+HW 6 Printout for i-forgot-to-replace-this-string-with-my-wustlkey
+-----------------------------------------------------
+Trace name  				sjeng-10M
+Instruction Limit			500000
+Processor Configuration:
+  Machine Width 			4
+  Number of Logical Registers 		50
+  Number of Physical Registers 		128
+  ROB Size 				8
+  NOT modeling memory dependences
+1: 0 1 1 2, r49 -> p492: 0 1 1 2, r1 -> p13: 0 1 1 2, r44 -> p504: 0 1 1 2, r7 -> p7, r2 -> p51You haven't committed an instruction in 100 cyces... Time to debug. Ending Simulation...
+Processed 4 trace lines.
+Instructions:
+  N Fetched =    		12
+  N Committed =  		4
+Stalls:
+  Fetch stalled (ROB full) =    100
+IPC: 				0.039
+SOLUTION SIMULATOR: reached insn limit of 500000 @ cycle 341339. Ending Simulation...
+	Your nCommitted is incorrect. Please check your implementation.
+	Your cycleCount is incorrect. Please check your implementation.
+
+Test #5. All stages, 2048 pregs, rob = 128, 8-wide machine
+HW 6 Printout for i-forgot-to-replace-this-string-with-my-wustlkey
+-----------------------------------------------------
+Trace name  				sjeng-10M
+Instruction Limit			500000
+Processor Configuration:
+  Machine Width 			8
+  Number of Logical Registers 		50
+  Number of Physical Registers 		2048
+  ROB Size 				128
+  NOT modeling memory dependences
+1: 0 17 17 18, r49 -> p492: 0 1 1 18, r1 -> p13: 0 1 1 18, r44 -> p504: 0 1 1 18, r7 -> p7, r2 -> p515: 0 1 1 18, r6 -> p526: 0 1 1 18, r6 -> p537: 0 1 1 18, r6 -> p548: 0 1 1 18, r49 -> p569: 1 2 2 19, r6 -> p5410: 1 2 2 19, r49 -> p5811: 1 17 17 19, r2 -> p5112: 1 17 17 19, r8 -> p59, r7 -> p713: 1 17 17 19, r8 -> p6014: 1 17 17 19, r8 -> p6115: 1 17 17 19, r2 -> p5116: 1 2 2 1917: 2 3 3 20, r6 -> p5418: 2 3 3 20, r49 -> p6619: 2 3 3 20, r6 -> p5420: 2 3 3 20, r49 -> p6821: 2 3 3 20, r6 -> p5422: 2 3 3 20, r49 -> p7023: 2 11 11 20, r1 -> p124: 2 11 11 20, r0 -> p025: 3 11 11 21, r0 -> p7326: 3 11 11 21, r49 -> p7527: 3 11 11 21, r1 -> p7128: 3 11 11 21, r44 -> p7629: 3 11 11 21, r7 -> p7, r2 -> p7730: 3 11 11 21, r6 -> p7831: 3 12 12 21, r6 -> p7932: 3 12 12 21, r6 -> p8033: 4 12 12 22, r49 -> p8234: 4 12 12 22, r6 -> p8035: 4 12 12 22, r49 -> p8436: 4 17 17 22, r2 -> p7737: 4 17 17 22, r8 -> p85, r7 -> p738: 4 18 18 22, r8 -> p8639: 4 18 18 22, r8 -> p8740: 4 18 18 22, r2 -> p7741: 5 6 6 2342: 5 12 12 23, r6 -> p8043: 5 12 12 23, r49 -> p9244: 5 12 12 23, r6 -> p8045: 5 18 18 23, r49 -> p9446: 5 13 13 23, r6 -> p8047: 5 13 13 23, r49 -> p9648: 5 25 25 26, r1 -> p7149: 6 25 25 26, r0 -> p7350: 6 25 25 26, r0 -> p9951: 6 13 13 26, r49 -> p10152: 6 25 25 26, r1 -> p9753: 6 13 13 26, r44 -> p10254: 6 13 13 26, r7 -> p7, r2 -> p10355: 6 13 13 26, r6 -> p10456: 6 13 13 27, r6 -> p10557: 7 13 13 27, r6 -> p10658: 7 18 18 27, r49 -> p10859: 7 14 14 27, r6 -> p10660: 7 14 14 27, r49 -> p11061: 7 18 18 27, r2 -> p10362: 7 18 18 27, r8 -> p111, r7 -> p763: 7 18 18 27, r8 -> p11264: 7 19 19 28, r8 -> p11365: 8 31 31 32, r2 -> p10366: 8 9 9 3267: 8 14 14 32, r6 -> p10668: 8 14 14 32, r49 -> p11869: 8 14 14 32, r6 -> p10670: 8 14 14 32, r49 -> p12071: 8 14 14 32, r6 -> p10672: 8 14 14 32, r49 -> p12273: 9 25 25 33, r1 -> p9774: 9 25 25 33, r0 -> p9975: 9 25 25 33, r0 -> p12576: 9 25 25 33, r49 -> p12777: 9 10 10 3378: 9 10 10 3379: 9 10 10 3380: 9 10 10 33, r0 -> p12881: 10 26 26 34, r49 -> p13182: 10 15 15 34, r7 -> p783: 10 26 26 34, r1 -> p12984: 10 31 31 34, r2 -> p132, r44 -> p13385: 10 15 15 34, r2 -> p13486: 10 15 15 34, r2 -> p13687: 10 15 15 34, r45 -> p13788: 10 15 15 34, r49 -> p13989: 11 26 26 35, r1 -> p12990: 11 26 26 35, r0 -> p12891: 11 26 26 35, r0 -> p14292: 11 15 15 35, r49 -> p14493: 11 15 15 35, r7 -> p794: 11 26 26 35, r1 -> p14095: 11 15 15 35, r2 -> p145, r44 -> p14696: 11 31 31 35, r2 -> p14797: 12 31 31 36, r2 -> p14998: 12 16 16 36, r45 -> p15099: 12 16 16 36, r49 -> p152100: 12 26 26 36, r1 -> p140101: 12 26 26 36, r0 -> p142102: 12 27 27 36, r0 -> p155103: 12 16 16 36, r49 -> p157104: 12 16 16 36, r7 -> p7105: 13 27 27 37, r1 -> p153106: 13 16 16 37, r2 -> p158, r44 -> p159107: 13 16 16 37, r2 -> p160108: 13 16 16 37, r2 -> p162109: 13 16 16 37, r45 -> p163110: 13 27 27 37, r49 -> p165111: 13 27 27 37, r1 -> p153112: 13 27 27 37, r0 -> p155113: 14 27 27 38, r0 -> p168114: 14 27 27 38, r49 -> p170115: 14 19 19 38, r7 -> p7116: 14 27 27 38, r1 -> p166117: 14 31 31 38, r2 -> p171, r44 -> p172118: 14 19 19 38, r2 -> p173119: 14 19 19 38, r2 -> p175120: 14 19 19 38, r45 -> p176121: 15 19 19 39, r49 -> p178122: 15 28 28 39, r1 -> p166123: 15 28 28 39, r0 -> p168124: 15 28 28 39, r0 -> p181125: 15 19 19 39, r49 -> p183126: 15 19 19 39, r7 -> p7127: 15 28 28 39, r1 -> p179128: 15 31 31 39, r2 -> p184, r44 -> p185129: 18 31 31 40, r2 -> p186130: 18 31 31 40, r2 -> p188131: 18 22 22 40, r45 -> p189132: 18 22 22 40, r49 -> p191133: 18 28 28 40, r1 -> p179134: 18 28 28 40, r0 -> p181135: 18 28 28 40, r0 -> p194136: 18 22 22 40, r49 -> p196137: 19 20 20 41, r7 -> p7138: 19 28 28 41, r1 -> p192139: 19 32 32 41, r2 -> p197, r44 -> p198140: 19 20 20 41, r2 -> p199141: 19 20 20 41, r2 -> p201142: 19 20 20 41, r45 -> p202143: 19 20 20 41, r49 -> p204144: 19 29 29 41, r1 -> p192145: 20 29 29 42, r0 -> p194146: 20 29 29 42, r0 -> p207147: 20 22 22 42, r49 -> p209148: 20 21 21 42, r7 -> p7149: 20 29 29 42, r1 -> p205150: 20 32 32 42, r2 -> p210, r44 -> p211151: 20 21 21 42, r2 -> p212152: 20 21 21 42, r2 -> p214153: 21 22 22 43, r45 -> p215154: 21 22 22 43, r49 -> p217155: 21 29 29 43, r1 -> p205156: 21 29 29 43, r0 -> p207157: 21 29 29 43, r0 -> p220158: 21 22 22 43, r49 -> p222159: 21 22 22 43, r7 -> p7160: 21 29 29 43, r1 -> p218161: 22 32 32 44, r2 -> p223, r44 -> p224162: 22 32 32 44, r2 -> p225163: 22 32 32 44, r2 -> p227164: 22 32 32 44, r45 -> p228165: 22 30 30 44, r49 -> p230166: 22 30 30 44, r1 -> p218167: 22 30 30 44, r0 -> p220168: 22 30 30 44, r0 -> p233169: 23 30 30 45, r49 -> p235170: 23 24 24 45171: 23 24 24 45172: 23 24 24 45173: 23 24 24 45, r0 -> p236174: 23 24 24 45, r49 -> p239175: 23 24 24 45, r1 -> p237176: 26 30 30 45, r44 -> p240177: 26 30 30 46, r7 -> p7, r2 -> p241178: 26 30 30 46, r6 -> p242179: 26 32 32 46, r6 -> p243180: 26 32 32 46, r6 -> p244You haven't committed an instruction in 100 cyces... Time to debug. Ending Simulation...
+Processed 180 trace lines.
+Instructions:
+  N Fetched =    		308
+  N Committed =  		180
+Stalls:
+  Fetch stalled (ROB full) =    110
+IPC: 				1.224
+SOLUTION SIMULATOR: reached insn limit of 500000 @ cycle 70512. Ending Simulation...
+	Your nCommitted is incorrect. Please check your implementation.
+	Your cycleCount is incorrect. Please check your implementation.
+
+Test #6. All stages, 128 pregs, rob = 8, 4-wide machine. Modeling Memory Dependences.
+HW 6 Printout for i-forgot-to-replace-this-string-with-my-wustlkey
+-----------------------------------------------------
+Trace name  				sjeng-10M
+Instruction Limit			500000
+Processor Configuration:
+  Machine Width 			4
+  Number of Logical Registers 		50
+  Number of Physical Registers 		128
+  ROB Size 				8
+  modeling memory dependences: Conservative Memory Scheduling
+1: 0 1 1 2, r49 -> p492: 0 1 1 2, r1 -> p13: 0 1 1 2, r44 -> p504: 0 1 1 2, r7 -> p7, r2 -> p51You haven't committed an instruction in 100 cyces... Time to debug. Ending Simulation...
+Processed 4 trace lines.
+Instructions:
+  N Fetched =    		12
+  N Committed =  		4
+Stalls:
+  Fetch stalled (ROB full) =    100
+IPC: 				0.039
+SOLUTION SIMULATOR: reached insn limit of 500000 @ cycle 377388. Ending Simulation...
+	Your nCommitted is incorrect. Please check your implementation.
+	Your cycleCount is incorrect. Please check your implementation.
+
+Test #7. All stages, 2048 pregs, rob = 128, 8-wide machine. Modeling Memory Dependences with perfect memory scheduling.
+HW 6 Printout for i-forgot-to-replace-this-string-with-my-wustlkey
+-----------------------------------------------------
+Trace name  				sjeng-10M
+Instruction Limit			500000
+Processor Configuration:
+  Machine Width 			8
+  Number of Logical Registers 		50
+  Number of Physical Registers 		2048
+  ROB Size 				128
+  modeling memory dependences: Perfect Memory Scheduling
+1: 0 17 17 18, r49 -> p492: 0 1 1 18, r1 -> p13: 0 1 1 18, r44 -> p504: 0 1 1 18, r7 -> p7, r2 -> p515: 0 1 1 18, r6 -> p526: 0 1 1 18, r6 -> p537: 0 1 1 18, r6 -> p548: 0 1 1 18, r49 -> p569: 1 2 2 19, r6 -> p5410: 1 2 2 19, r49 -> p5811: 1 17 17 19, r2 -> p5112: 1 17 17 19, r8 -> p59, r7 -> p713: 1 17 17 19, r8 -> p6014: 1 17 17 19, r8 -> p6115: 1 17 17 19, r2 -> p5116: 1 2 2 1917: 2 3 3 20, r6 -> p5418: 2 3 3 20, r49 -> p6619: 2 3 3 20, r6 -> p5420: 2 3 3 20, r49 -> p6821: 2 3 3 20, r6 -> p5422: 2 3 3 20, r49 -> p7023: 2 11 11 20, r1 -> p124: 2 11 11 20, r0 -> p025: 3 11 11 21, r0 -> p7326: 3 11 11 21, r49 -> p7527: 3 11 11 21, r1 -> p7128: 3 11 11 21, r44 -> p7629: 3 11 11 21, r7 -> p7, r2 -> p7730: 3 11 11 21, r6 -> p7831: 3 12 12 21, r6 -> p7932: 3 12 12 21, r6 -> p8033: 4 12 12 22, r49 -> p8234: 4 12 12 22, r6 -> p8035: 4 12 12 22, r49 -> p8436: 4 17 17 22, r2 -> p7737: 4 17 17 22, r8 -> p85, r7 -> p738: 4 18 18 22, r8 -> p8639: 4 18 18 22, r8 -> p8740: 4 18 18 22, r2 -> p7741: 5 6 6 2342: 5 12 12 23, r6 -> p8043: 5 12 12 23, r49 -> p9244: 5 12 12 23, r6 -> p8045: 5 18 18 23, r49 -> p9446: 5 13 13 23, r6 -> p8047: 5 13 13 23, r49 -> p9648: 5 25 25 26, r1 -> p7149: 6 25 25 26, r0 -> p7350: 6 25 25 26, r0 -> p9951: 6 13 13 26, r49 -> p10152: 6 25 25 26, r1 -> p9753: 6 13 13 26, r44 -> p10254: 6 13 13 26, r7 -> p7, r2 -> p10355: 6 13 13 26, r6 -> p10456: 6 13 13 27, r6 -> p10557: 7 13 13 27, r6 -> p10658: 7 18 18 27, r49 -> p10859: 7 14 14 27, r6 -> p10660: 7 14 14 27, r49 -> p11061: 7 18 18 27, r2 -> p10362: 7 18 18 27, r8 -> p111, r7 -> p763: 7 18 18 27, r8 -> p11264: 7 19 19 28, r8 -> p11365: 8 31 31 32, r2 -> p10366: 8 9 9 3267: 8 14 14 32, r6 -> p10668: 8 14 14 32, r49 -> p11869: 8 14 14 32, r6 -> p10670: 8 14 14 32, r49 -> p12071: 8 14 14 32, r6 -> p10672: 8 14 14 32, r49 -> p12273: 9 25 25 33, r1 -> p9774: 9 25 25 33, r0 -> p9975: 9 25 25 33, r0 -> p12576: 9 25 25 33, r49 -> p12777: 9 10 10 3378: 9 10 10 3379: 9 10 10 3380: 9 10 10 33, r0 -> p12881: 10 26 26 34, r49 -> p13182: 10 15 15 34, r7 -> p783: 10 26 26 34, r1 -> p12984: 10 31 31 34, r2 -> p132, r44 -> p13385: 10 15 15 34, r2 -> p13486: 10 15 15 34, r2 -> p13687: 10 15 15 34, r45 -> p13788: 10 15 15 34, r49 -> p13989: 11 26 26 35, r1 -> p12990: 11 26 26 35, r0 -> p12891: 11 26 26 35, r0 -> p14292: 11 15 15 35, r49 -> p14493: 11 15 15 35, r7 -> p794: 11 26 26 35, r1 -> p14095: 11 15 15 35, r2 -> p145, r44 -> p14696: 11 31 31 35, r2 -> p14797: 12 31 31 36, r2 -> p14998: 12 16 16 36, r45 -> p15099: 12 16 16 36, r49 -> p152100: 12 26 26 36, r1 -> p140101: 12 26 26 36, r0 -> p142102: 12 27 27 36, r0 -> p155103: 12 16 16 36, r49 -> p157104: 12 16 16 36, r7 -> p7105: 13 27 27 37, r1 -> p153106: 13 16 16 37, r2 -> p158, r44 -> p159107: 13 16 16 37, r2 -> p160108: 13 16 16 37, r2 -> p162109: 13 16 16 37, r45 -> p163110: 13 27 27 37, r49 -> p165111: 13 27 27 37, r1 -> p153112: 13 27 27 37, r0 -> p155113: 14 27 27 38, r0 -> p168114: 14 27 27 38, r49 -> p170115: 14 19 19 38, r7 -> p7116: 14 27 27 38, r1 -> p166117: 14 31 31 38, r2 -> p171, r44 -> p172118: 14 19 19 38, r2 -> p173119: 14 19 19 38, r2 -> p175120: 14 19 19 38, r45 -> p176121: 15 19 19 39, r49 -> p178122: 15 28 28 39, r1 -> p166123: 15 28 28 39, r0 -> p168124: 15 28 28 39, r0 -> p181125: 15 19 19 39, r49 -> p183126: 15 19 19 39, r7 -> p7127: 15 28 28 39, r1 -> p179128: 15 31 31 39, r2 -> p184, r44 -> p185129: 18 31 31 40, r2 -> p186130: 18 31 31 40, r2 -> p188131: 18 22 22 40, r45 -> p189132: 18 22 22 40, r49 -> p191133: 18 28 28 40, r1 -> p179134: 18 28 28 40, r0 -> p181135: 18 28 28 40, r0 -> p194136: 18 22 22 40, r49 -> p196137: 19 20 20 41, r7 -> p7138: 19 28 28 41, r1 -> p192139: 19 32 32 41, r2 -> p197, r44 -> p198140: 19 20 20 41, r2 -> p199141: 19 20 20 41, r2 -> p201142: 19 20 20 41, r45 -> p202143: 19 20 20 41, r49 -> p204144: 19 29 29 41, r1 -> p192145: 20 29 29 42, r0 -> p194146: 20 29 29 42, r0 -> p207147: 20 22 22 42, r49 -> p209148: 20 21 21 42, r7 -> p7149: 20 29 29 42, r1 -> p205150: 20 32 32 42, r2 -> p210, r44 -> p211151: 20 21 21 42, r2 -> p212152: 20 21 21 42, r2 -> p214153: 21 22 22 43, r45 -> p215154: 21 22 22 43, r49 -> p217155: 21 29 29 43, r1 -> p205156: 21 29 29 43, r0 -> p207157: 21 29 29 43, r0 -> p220158: 21 22 22 43, r49 -> p222159: 21 22 22 43, r7 -> p7160: 21 29 29 43, r1 -> p218161: 22 32 32 44, r2 -> p223, r44 -> p224162: 22 32 32 44, r2 -> p225163: 22 32 32 44, r2 -> p227164: 22 32 32 44, r45 -> p228165: 22 30 30 44, r49 -> p230166: 22 30 30 44, r1 -> p218167: 22 30 30 44, r0 -> p220168: 22 30 30 44, r0 -> p233169: 23 30 30 45, r49 -> p235170: 23 24 24 45171: 23 24 24 45172: 23 24 24 45173: 23 24 24 45, r0 -> p236174: 23 24 24 45, r49 -> p239175: 23 24 24 45, r1 -> p237176: 26 30 30 45, r44 -> p240177: 26 30 30 46, r7 -> p7, r2 -> p241178: 26 30 30 46, r6 -> p242179: 26 32 32 46, r6 -> p243180: 26 32 32 46, r6 -> p244You haven't committed an instruction in 100 cyces... Time to debug. Ending Simulation...
+Processed 180 trace lines.
+Instructions:
+  N Fetched =    		308
+  N Committed =  		180
+Stalls:
+  Fetch stalled (ROB full) =    110
+IPC: 				1.224
+SOLUTION SIMULATOR: reached insn limit of 500000 @ cycle 72191. Ending Simulation...
+	Your nCommitted is incorrect. Please check your implementation.
+	Your cycleCount is incorrect. Please check your implementation.
+
+POSSIBLE_POINTS:	39
+TOTAL_POINTS:    	10

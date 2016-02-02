@@ -1,0 +1,70 @@
+Welcome to the Homework 3 Autograder! Let's test your code on a variety of settings.
+-- Testing your Simulator code in the context of static prediction.--
+Reached insn limit of 500000. Ending Simulation...
+Processed 500000 trace lines.
+Num Uops (micro-ops): 			500000
+** static predictor, predicting taken ** 
+Prediction Accuracy: 56.87% (Mis-prediction rate: 43.13%)
+* * * * Hooray! Your predictor is error-free. +5 points
+
+Reached insn limit of 500000. Ending Simulation...
+Processed 500000 trace lines.
+Num Uops (micro-ops): 			500000
+** static predictor, predicting not-taken ** 
+Prediction Accuracy: 43.13% (Mis-prediction rate: 56.87%)
+* * * * Hooray! Your predictor is error-free. +5 points
+
+--Testing your Bimodal Branch Predictor.--
+Reached insn limit of 500000. Ending Simulation...
+Processed 500000 trace lines.
+Num Uops (micro-ops): 			500000
+** bimodal predictor, predicting 2^4 entries, each has 2-bit sat ctrs ** 
+Prediction Accuracy: 74.78% (Mis-prediction rate: 25.22%)
+* * * * Hooray! Your predictor is error-free. +5 points
+
+Reached insn limit of 500000. Ending Simulation...
+Processed 500000 trace lines.
+Num Uops (micro-ops): 			500000
+** bimodal predictor, predicting 2^8 entries, each has 2-bit sat ctrs ** 
+Prediction Accuracy: 84.07% (Mis-prediction rate: 15.93%)
+* * * * Hooray! Your predictor is error-free. +5 points
+
+--Testing your GShare Branch Predictor and History Register code.--
+Reached insn limit of 500000. Ending Simulation...
+Processed 500000 trace lines.
+Num Uops (micro-ops): 			500000
+** gshare predictor, predicting 2^3 entries, each has 2-bit sat ctrs, Plus BHR of length 8 bits ** 
+Prediction Accuracy: 66.37% (Mis-prediction rate: 33.63%)
+* * * * Hooray! Your predictor is error-free. +5 points
+
+Reached insn limit of 500000. Ending Simulation...
+Processed 500000 trace lines.
+Num Uops (micro-ops): 			500000
+** gshare predictor, predicting 2^8 entries, each has 2-bit sat ctrs, Plus BHR of length 3 bits ** 
+Prediction Accuracy: 81.57% (Mis-prediction rate: 18.43%)
+* * * * Hooray! Your predictor is error-free. +5 points
+
+--Testing your Tournament Branch Predictor.--
+Reached insn limit of 500000. Ending Simulation...
+Processed 500000 trace lines.
+Num Uops (micro-ops): 			500000
+** tournament predictor, predicting 
+Bimodal: 2^2 entries, each has 2-bit sat ctrs
+GSHARE: 2^3 entries, each has 2-bit sat ctrs, Plus BHR of length 4 bits
+Chooser Table: 2^5 entries, each has 2-bit sat ctrs ** 
+Prediction Accuracy: 56.87% (Mis-prediction rate: 43.13%)
+Your simulator's branch predictor did not have the expected number of correct predictions.  Please check your implementation.
+
+Reached insn limit of 500000. Ending Simulation...
+Processed 500000 trace lines.
+Num Uops (micro-ops): 			500000
+** tournament predictor, predicting 
+Bimodal: 2^7 entries, each has 2-bit sat ctrs
+GSHARE: 2^6 entries, each has 2-bit sat ctrs, Plus BHR of length 5 bits
+Chooser Table: 2^4 entries, each has 2-bit sat ctrs ** 
+Prediction Accuracy: 56.87% (Mis-prediction rate: 43.13%)
+Your simulator's branch predictor did not have the expected number of correct predictions.  Please check your implementation.
+
+
+POSSIBLE_POINTS:	40
+TOTAL_POINTS:    	30

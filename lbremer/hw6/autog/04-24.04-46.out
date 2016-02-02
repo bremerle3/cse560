@@ -1,0 +1,160 @@
+Welcome to the Homework 6 Autograder! Let's test your code on a variety of settings.
+
+Test #1. Rename Only with 64 physical registers
+HW 6 Printout for i-forgot-to-replace-this-string-with-my-wustlkey
+-----------------------------------------------------
+Trace name  				sjeng-10M
+Instruction Limit			500000
+Processor Configuration:
+  Machine Width 			0
+  Number of Logical Registers 		50
+  Number of Physical Registers 		64
+  ROB Size 				0
+  NOT modeling memory dependences
+Reached insn limit of 500000 @ cycle 499999. Ending Simulation...
+Processed 500000 trace lines.
+Instructions:
+  N Fetched =    		500000
+  N Committed =  		500000
+Stalls:
+  Fetch stalled (ROB full) =    0
+IPC: 				1.000
+Reached insn limit of 500000 @ cycle 499999. Ending Simulation...
+Scoreboard error discovered. Please check your implementation.
+
+Test #2. Rename Only with 128 physical registers
+HW 6 Printout for i-forgot-to-replace-this-string-with-my-wustlkey
+-----------------------------------------------------
+Trace name  				sjeng-10M
+Instruction Limit			500000
+Processor Configuration:
+  Machine Width 			0
+  Number of Logical Registers 		50
+  Number of Physical Registers 		128
+  ROB Size 				0
+  NOT modeling memory dependences
+Reached insn limit of 500000 @ cycle 499999. Ending Simulation...
+Processed 500000 trace lines.
+Instructions:
+  N Fetched =    		500000
+  N Committed =  		500000
+Stalls:
+  Fetch stalled (ROB full) =    0
+IPC: 				1.000
+Reached insn limit of 500000 @ cycle 499999. Ending Simulation...
+Scoreboard error discovered. Please check your implementation.
+
+Test #3. All stages, 64 pregs, rob = 4, 1-wide machine
+HW 6 Printout for i-forgot-to-replace-this-string-with-my-wustlkey
+-----------------------------------------------------
+Trace name  				sjeng-10M
+Instruction Limit			500000
+Processor Configuration:
+  Machine Width 			1
+  Number of Logical Registers 		50
+  Number of Physical Registers 		64
+  ROB Size 				4
+  NOT modeling memory dependences
+Reached insn limit of 500000 @ cycle 500001. Ending Simulation...
+Processed 500000 trace lines.
+Instructions:
+  N Fetched =    		500001
+  N Committed =  		500000
+Stalls:
+  Fetch stalled (ROB full) =    0
+IPC: 				1.000
+SOLUTION SIMULATOR: reached insn limit of 500000 @ cycle 654740. Ending Simulation...
+	Your cycleCount is incorrect. Please check your implementation.
+
+Test #4. All stages, 128 pregs, rob = 8, 4-wide machine
+HW 6 Printout for i-forgot-to-replace-this-string-with-my-wustlkey
+-----------------------------------------------------
+Trace name  				sjeng-10M
+Instruction Limit			500000
+Processor Configuration:
+  Machine Width 			4
+  Number of Logical Registers 		50
+  Number of Physical Registers 		128
+  ROB Size 				8
+  NOT modeling memory dependences
+Reached insn limit of 500000 @ cycle 125001. Ending Simulation...
+Processed 500000 trace lines.
+Instructions:
+  N Fetched =    		500004
+  N Committed =  		500000
+Stalls:
+  Fetch stalled (ROB full) =    0
+IPC: 				4.000
+SOLUTION SIMULATOR: reached insn limit of 500000 @ cycle 341339. Ending Simulation...
+	Your cycleCount is incorrect. Please check your implementation.
+
+Test #5. All stages, 2048 pregs, rob = 128, 8-wide machine
+HW 6 Printout for i-forgot-to-replace-this-string-with-my-wustlkey
+-----------------------------------------------------
+Trace name  				sjeng-10M
+Instruction Limit			500000
+Processor Configuration:
+  Machine Width 			8
+  Number of Logical Registers 		50
+  Number of Physical Registers 		2048
+  ROB Size 				128
+  NOT modeling memory dependences
+Reached insn limit of 500000 @ cycle 62501. Ending Simulation...
+Processed 500000 trace lines.
+Instructions:
+  N Fetched =    		500008
+  N Committed =  		500000
+Stalls:
+  Fetch stalled (ROB full) =    0
+IPC: 				8.000
+SOLUTION SIMULATOR: reached insn limit of 500000 @ cycle 70512. Ending Simulation...
+	Your nCommitted is incorrect. Please check your implementation.
+	Your cycleCount is incorrect. Please check your implementation.
+
+Test #6. All stages, 128 pregs, rob = 8, 4-wide machine. Modeling Memory Dependences.
+HW 6 Printout for i-forgot-to-replace-this-string-with-my-wustlkey
+-----------------------------------------------------
+Trace name  				sjeng-10M
+Instruction Limit			500000
+Processor Configuration:
+  Machine Width 			4
+  Number of Logical Registers 		50
+  Number of Physical Registers 		128
+  ROB Size 				8
+  modeling memory dependences: Conservative Memory Scheduling
+Reached insn limit of 500000 @ cycle 125001. Ending Simulation...
+Processed 500000 trace lines.
+Instructions:
+  N Fetched =    		500004
+  N Committed =  		500000
+Stalls:
+  Fetch stalled (ROB full) =    0
+IPC: 				4.000
+SOLUTION SIMULATOR: reached insn limit of 500000 @ cycle 377388. Ending Simulation...
+	Your cycleCount is incorrect. Please check your implementation.
+
+Test #7. All stages, 2048 pregs, rob = 128, 8-wide machine. Modeling Memory Dependences with perfect memory scheduling.
+HW 6 Printout for i-forgot-to-replace-this-string-with-my-wustlkey
+-----------------------------------------------------
+Trace name  				sjeng-10M
+Instruction Limit			500000
+Processor Configuration:
+  Machine Width 			8
+  Number of Logical Registers 		50
+  Number of Physical Registers 		2048
+  ROB Size 				128
+  modeling memory dependences: Perfect Memory Scheduling
+Reached insn limit of 500000 @ cycle 62501. Ending Simulation...
+Processed 500000 trace lines.
+Instructions:
+  N Fetched =    		500008
+  N Committed =  		500000
+Stalls:
+  Fetch stalled (ROB full) =    0
+IPC: 				8.000
+SOLUTION SIMULATOR: reached insn limit of 500000 @ cycle 72191. Ending Simulation...
+	Your nCommitted is incorrect. Please check your implementation.
+	Your cycleCount is incorrect. Please check your implementation.
+
+POSSIBLE_POINTS:	39
+TOTAL_POINTS:    	0

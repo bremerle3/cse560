@@ -1,0 +1,112 @@
+Welcome to the Homework 5 Autograder! Let's test your code on a variety of settings.
+
+Test #1. No branch stalls, no cache, 1-wide
+HW 5 Printout for i-forgot-to-replace-this-string-with-my-wustlkey
+-----------------------------------------------------
+Trace name  				gcc-10M
+Load Latency (cycles) 			2
+Instruction Limit			500000
+Processing trace...
+Reached insn limit of 500000. Ending Simulation...
+Processed 500000 trace lines.
+Num Uops (micro-ops): 			500000
+Num Mops (macro-ops): 			383746
+Total Execution Time (in cycles): 	500000
+CPI (per uop): 				1.000
+IPC (per uop): 				1.000
+Processing trace...
+Reached insn limit of 500000. Ending Simulation...
+	Your cycleCount is incorrect. Please check your implementation.
+
+Test #2. No branch stalls, no cache, 4-wide
+HW 5 Printout for i-forgot-to-replace-this-string-with-my-wustlkey
+-----------------------------------------------------
+Trace name  				gcc-10M
+Load Latency (cycles) 			2
+Instruction Limit			500000
+Processing trace...
+Reached insn limit of 500000. Ending Simulation...
+Processed 500000 trace lines.
+Num Uops (micro-ops): 			500000
+Num Mops (macro-ops): 			383746
+Total Execution Time (in cycles): 	500000
+CPI (per uop): 				1.000
+IPC (per uop): 				1.000
+Processing trace...
+Reached insn limit of 500000. Ending Simulation...
+	Your cycleCount is incorrect. Please check your implementation.
+
+Test #3. Branch stalls, perfect fetch, 4-wide
+HW 5 Printout for i-forgot-to-replace-this-string-with-my-wustlkey
+-----------------------------------------------------
+Trace name  				gcc-10M
+Load Latency (cycles) 			2
+Instruction Limit			500000
+Processing trace...
+Reached insn limit of 500000. Ending Simulation...
+Processed 500000 trace lines.
+Num Uops (micro-ops): 			500000
+Num Mops (macro-ops): 			383746
+Total Execution Time (in cycles): 	500000
+CPI (per uop): 				1.000
+IPC (per uop): 				1.000
+Processing trace...
+Reached insn limit of 500000. Ending Simulation...
+	Your cycleCount is incorrect. Please check your implementation.
+
+Test #4. Branch stalls, not-perfect fetch, 4-wide
+HW 5 Printout for i-forgot-to-replace-this-string-with-my-wustlkey
+-----------------------------------------------------
+Trace name  				gcc-10M
+Load Latency (cycles) 			2
+Instruction Limit			500000
+Processing trace...
+Reached insn limit of 500000. Ending Simulation...
+Processed 500000 trace lines.
+Num Uops (micro-ops): 			500000
+Num Mops (macro-ops): 			383746
+Total Execution Time (in cycles): 	500000
+CPI (per uop): 				1.000
+IPC (per uop): 				1.000
+Processing trace...
+Reached insn limit of 500000. Ending Simulation...
+	Your cycleCount is incorrect. Please check your implementation.
+
+Test #5. Branch stalls, not-perfect fetch, cache model, 4-wide
+HW 5 Printout for i-forgot-to-replace-this-string-with-my-wustlkey
+-----------------------------------------------------
+Trace name  				gcc-10M
+Load Latency (cycles) 			2
+Instruction Limit			500000
+Processing trace...
+Reached insn limit of 500000. Ending Simulation...
+Processed 500000 trace lines.
+Num Uops (micro-ops): 			500000
+Num Mops (macro-ops): 			383746
+Total Execution Time (in cycles): 	500000
+CPI (per uop): 				1.000
+IPC (per uop): 				1.000
+Processing trace...
+Reached insn limit of 500000. Ending Simulation...
+	Your cycleCount is incorrect. Please check your implementation.
+
+Test #6. Branch stalls, not-perfect fetch, cache model, 8-wide
+HW 5 Printout for i-forgot-to-replace-this-string-with-my-wustlkey
+-----------------------------------------------------
+Trace name  				gcc-10M
+Load Latency (cycles) 			2
+Instruction Limit			500000
+Processing trace...
+Reached insn limit of 500000. Ending Simulation...
+Processed 500000 trace lines.
+Num Uops (micro-ops): 			500000
+Num Mops (macro-ops): 			383746
+Total Execution Time (in cycles): 	500000
+CPI (per uop): 				1.000
+IPC (per uop): 				1.000
+Processing trace...
+Reached insn limit of 500000. Ending Simulation...
+	Your cycleCount is incorrect. Please check your implementation.
+
+POSSIBLE_POINTS:	30
+TOTAL_POINTS:    	0

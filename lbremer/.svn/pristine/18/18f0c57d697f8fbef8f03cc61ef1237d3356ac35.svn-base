@@ -1,0 +1,20 @@
+Welcome to the Homework 6 Autograder! Let's test your code on a variety of settings.
+
+Test #1. Rename Only with 64 physical registers
+HW 6 Printout for i-forgot-to-replace-this-string-with-my-wustlkey
+-----------------------------------------------------
+Trace name  				sjeng-10M
+Instruction Limit			500000
+Processor Configuration:
+  Machine Width 			0
+  Number of Logical Registers 		50
+  Number of Physical Registers 		64
+  ROB Size 				0
+  NOT modeling memory dependences
+Exception in thread "main" java.io.FileNotFoundException: /home/leo/svn_repos/cse560/lbremer/traces/sjeng-10M.trace.gz (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+	at java.io.FileInputStream.<init>(FileInputStream.java:101)
+	at Simulator.initTrace(Simulator.java:115)
+	at Simulator.processTrace(Simulator.java:265)
+	at HW6Grader.main(HW6Grader.java:104)

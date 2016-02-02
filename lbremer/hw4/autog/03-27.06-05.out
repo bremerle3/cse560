@@ -1,0 +1,11 @@
+Cache.java:72: error: possible loss of precision
+	return (addr&mask)>>(nIndexBits + nOffsetBits);
+	                  ^
+  required: int
+  found:    long
+1 error
+
+Compiler error. At least one needed class was not created.
+(ALERT! Please make sure you have added an 's' to the variables:
+	 total_bytes_tranferred_wb and total_bytes_tranferred_wt (add the s to get --> tran-S-ferred)
+which were sadly/embarrassingly mis-spelled at first...)
